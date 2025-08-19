@@ -2,7 +2,7 @@
 import { Head } from '@inertiajs/vue3';
 
 import AppearanceTabs from '@/components/app/AppearanceTabs.vue';
-import HeadingSmall from '@/components/heading/HeadingSmall.vue';
+import HeadingSmall from '@/components/text/HeadingSmall.vue';
 import { type BreadcrumbItem } from '@/types';
 
 import AppLayout from '@/layouts/AppLayout.vue';

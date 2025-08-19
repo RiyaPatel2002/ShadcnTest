@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import AppLogo from '@/components/logo/AppLogo.vue';
-import AppLogoIcon from '@/components/logo/AppLogoIcon.vue';
-import Breadcrumbs from '@/components/app/Breadcrumbs.vue';
+import AppLogo from '@/components/logo-icons/AppLogo.vue';
+import AppLogoIcon from '@/components/logo-icons/AppLogoIcon.vue';
+import Breadcrumbs from '@/components/navigation/Breadcrumbs.vue';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/shadcn/avatar';
 import { Button } from '@/components/shadcn/button';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuTrigger } from '@/components/shadcn/my-dropdown-menu';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import InputError from '@/components/input/InputError.vue';
+import InputError from '@/components/form/InputError.vue';
 import TextLink from '@/components/text/TextLink.vue';
 import { Button } from '@/components/shadcn/button';
 import { Checkbox } from '@/components/shadcn/checkbox';
