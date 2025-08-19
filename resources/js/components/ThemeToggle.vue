@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
 import { useColorMode } from '@vueuse/core'
-import { Button } from '@/components/ui/button'
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/my-dropdown-menu'
+import { Button } from '@/components/shadcn/button'
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/shadcn/my-dropdown-menu'
 
 // Pass { disableTransition: false } to enable transitions
 const mode = useColorMode()
