@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { Form, Head, Link, usePage } from '@inertiajs/vue3';
 
-import DeleteUser from '@/components/DeleteUser.vue';
-import HeadingSmall from '@/components/HeadingSmall.vue';
-import InputError from '@/components/InputError.vue';
+import DeleteUser from '@/components/user/DeleteUser.vue';
+import HeadingSmall from '@/components/heading/HeadingSmall.vue';
+import InputError from '@/components/input/InputError.vue';
 import { Button } from '@/components/shadcn/button';
 import { Input } from '@/components/shadcn/input';
 import { Label } from '@/components/shadcn/label';

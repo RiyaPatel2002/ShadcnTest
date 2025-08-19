@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import Breadcrumbs from '@/components/Breadcrumbs.vue';
+import Breadcrumbs from '@/components/app/Breadcrumbs.vue';
 import { SidebarTrigger } from '@/components/shadcn/sidebar';
 import type { BreadcrumbItemType } from '@/types';
-import ThemeToggle from './ThemeToggle.vue';
+// import ThemeToggle from './ThemeToggle.vue';
+import ThemeToggle from '../theme/ThemeToggle.vue';
 
 withDefaults(
     defineProps<{

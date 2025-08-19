@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TextLink from '@/components/TextLink.vue';
+import TextLink from '@/components/text/TextLink.vue';
 import { Button } from '@/components/shadcn/button';
 import AuthLayout from '@/layouts/AuthLayout.vue';
 import { Form, Head } from '@inertiajs/vue3';
